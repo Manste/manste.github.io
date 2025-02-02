@@ -1,0 +1,33 @@
+
+.page{
+    width: 100%;
+    min-height: 440px;
+    background: url("../../images/post2/img2.a.jpg");
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-text{
+    color: var(--bg-color);
+    text-align: center;
+}
+
+.page-title{
+    font-size: 3.5rem;
+}
+
+.page-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+/* Blog Post Content */
+.post-content {
+    background: white;
+    padding: 5%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
