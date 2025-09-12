@@ -56,7 +56,7 @@ kramdown:
 gitalk:
   enable: true   
   REMOVED: REMOVED                           
-  clientSecret: 1c88c5db44f105dbabc25d2a4bfe187d07184592
+  clientSecret: REMOVED
   repo: manste.github.io   
   owner: Manste   
   admin: Manste
