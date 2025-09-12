@@ -56,7 +56,7 @@ kramdown:
 gitalk:
   enable: true   
   clientID: Ov23liaQXu5cHhBxumrw                           
-  clientSecret: 1c88c5db44f105dbabc25d2a4bfe187d07184592
+  clientSecret: 06a87e604498feccd88fbc9372ae83625d54a805
   repo: manste.github.io   
   owner: Manste   
   admin: Manste
