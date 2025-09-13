@@ -161,13 +161,42 @@
 
 <!-- Google Analytics -->
 {% if site.ga_track_id %}
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_track_id }}"></script>
+<!-- Footer scripts -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ site.ga_track_id }}');
+window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    palette: {
+      popup: { background: "#000" },
+      button: { background: "#f1d600" }
+    },
+    theme: "classic",
+    position: "bottom",
+    content: {
+      message: "Ce site utilise des cookies pour ameliorer votre experience.",
+      dismiss: "Accepter",
+      link: "/privacy.html",
+      href: "/privacy.html"
+    },
+    onStatusChange: function(status) {
+      if(status === 'allow') {
+        // load Google Analytics dynamically
+        var gaScript = document.createElement('script');
+        gaScript.src = "https://www.googletagmanager.com/gtag/js?id={{ site.ga_track_id }}";
+        gaScript.async = true;
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.ga_track_id }}');
+      }
+    }
+  })
+});
 </script>
+
 {% endif %}
 
 
