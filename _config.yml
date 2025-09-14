@@ -12,7 +12,7 @@ github_repo: "https://github.com/Manste/manste.github.io.git" # you code reposit
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Ici on apprend, on se challenge, on apporte des resultats concrets!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://media.licdn.com/dms/image/v2/C4D03AQGcPJOGf8_Mvg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1593035778874?e=1760572800&v=beta&t=QCLSVEiyzSm81W9hzZuV8uQRL0jITkGh8V6Rrx7v4jo    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
