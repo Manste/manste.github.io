@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: privacy.html
-header-img: "img/privacy.jpg"
+header-img: "img/back5.jpg"
 ---
 
 # Politique de confidentialité
