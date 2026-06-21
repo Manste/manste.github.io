@@ -1,6 +1,6 @@
 # Site settings
 title: "Manste blog"
-SEOTitle: Blog de Manuelle Ndamtang
+SEOTitle: Manste blog
 header-img: img/post-bg-desk.jpg
 email: manuelle.ndamtang@goossens-network.be
 description: "Pourquoi se contenter d'une vie simple quand on peut se challenger..."
@@ -11,20 +11,15 @@ github_repo: "https://github.com/Manste/manste.github.io.git" # you code reposit
 
 # Sidebar settings
 sidebar: false                           # whether or not using Sidebar.
-sidebar-about-description: "Ici on apprend, on se challenge, on apporte des resultats concrets!"
+sidebar-about-description: "Pourquoi se contenter d'une vie simple quand on peut se challenger..."
 sidebar-avatar: https://media.licdn.com/dms/image/v2/C4D03AQGcPJOGf8_Mvg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1593035778874?e=1760572800&v=beta&t=QCLSVEiyzSm81W9hzZuV8uQRL0jITkGh8V6Rrx7v4jo    # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
 
 # SNS settings
 RSS: false
 linkedin_username:  manuelle-ndamtang
 github_username:    manste
-youtube_username:   manuelle-ndamtang
-twitter_username:   manuelle-ndamtang
-
-
-
+youtube_username:   manuelle.ndamtang
+twitter_username:   manuelle.ndamtang
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -105,3 +100,9 @@ service-worker: true
 #        href: "https://developer.apple.com/"
 #    }
 #]
+
+
+lang: fr
+timezone: Europe/Brussels
+# Date format in French
+date_format: "%d %B %Y"    # outputs: 21 juin 2026
