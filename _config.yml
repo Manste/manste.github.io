@@ -55,8 +55,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true   
-  clientID: REMOVED                           
-  clientSecret: REMOVED
+  clientID:                            
+  clientSecret: 
   repo: manste.github.io   
   owner: Manste   
   admin: Manste
@@ -70,7 +70,7 @@ gitalk:
 # ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: REMOVED            
+ga_track_id:             
 ga_domain: auto
 
 
