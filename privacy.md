@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Politique de confidentialité
-permalink: /privacy.html
+permalink: privacy.html
 ---
 
 # Politique de confidentialité
